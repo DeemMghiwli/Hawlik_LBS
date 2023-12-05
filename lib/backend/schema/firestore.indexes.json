@@ -1,0 +1,50 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "HealthPlaces",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "match",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "distance",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "food",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "foodType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "match",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "distance",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "food",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "foodType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "match",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
